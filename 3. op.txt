@@ -1,0 +1,17 @@
+OUTPUT:
+PS C:\Users\shree> & 'C:\Program Files\Java\jdk-19\bin\java.exe'
+'-agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:54501'
+'-XX:+ShowCodeDetailsInExceptionMessages' '-cp'
+'C:\Users\shree\AppData\Local\Temp\vscodesws_c115b\jdt_ws\jdt.ls-java-project\bin' 'Main'
+Thread Writer1 is WRITING: Good Morning
+Thread Writer1 has finished WRITING
+Thread Reader2 is READING: Good Morning
+Thread Reader1 is READING: Good Morning
+Thread Reader3 is READING: Good Morning
+Thread Reader2 has FINISHED READING
+Thread Reader3 has FINISHED READING
+Thread Reader1 has FINISHED READING
+Thread Writer2 is WRITING: Good Morning
+Thread Writer2 has finished WRITING
+Thread Writer3 is WRITING: Good Morning
+Thread Writer3 has finished WRITING
